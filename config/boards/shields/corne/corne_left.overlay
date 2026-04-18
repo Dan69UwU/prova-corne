@@ -1,13 +1,6 @@
 #include "corne.dtsi"
 
 &kscan0 {
-
-    row-gpios
-        = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Sostituisci X con il tuo pin
-        , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Sostituisci Y con il tuo pin
-        , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Sostituisci Z con il tuo pin
-        , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Sostituisci W con il tuo pin
-        ;
     /* I TUOI PIN DELLE COLONNE - SINISTRA */
     col-gpios
         = <&pro_micro 21 GPIO_ACTIVE_HIGH>
