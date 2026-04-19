@@ -1,6 +1,9 @@
 #include "corne.dtsi"
 
 
+&default_transform {
+    col-offset = <6>;
+};
 
 &kscan0 {
     /* I TUOI PIN DELLE COLONNE - DESTRA */
